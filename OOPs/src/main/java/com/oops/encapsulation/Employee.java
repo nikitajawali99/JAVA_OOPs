@@ -30,7 +30,7 @@ public class Employee {
 		this.empLocation = empLocation;
 	}
 
-	//constructor with parameterized
+	// constructor with parameterized
 	public Employee(Long empId, String empName, String empLocation) {
 		super();
 		this.empId = empId;
@@ -38,7 +38,7 @@ public class Employee {
 		this.empLocation = empLocation;
 	}
 
-	//constructor without parameterized / super constructor
+	// constructor without parameterized / super constructor
 	public Employee() {
 	}
 
@@ -62,8 +62,8 @@ public class Employee {
 		e1.setEmpName("Nishiii");
 		e1.show();
 		System.out.println("_____________________________");
-		//setting values in the parameterized constructor 
-		Employee e3 = new Employee(253L,"Krishna", "Chennai");
+		// setting values in the parameterized constructor 
+		Employee e3 = new Employee(253L, "Krishna", "Chennai");
 		e3.show();
 
 	}

@@ -28,7 +28,7 @@ ________________________________________________________________________________
 Real-life examples ->
 
 1)Working of an AC all functions are private and we have public modifier 
-  ie remote to change the temperature.
+  ie remote to change the temperature of AC.
   
 2)When we login into our gmail account we don't have control over the internal process,
   we can only provided with public modifier ie email and password.
