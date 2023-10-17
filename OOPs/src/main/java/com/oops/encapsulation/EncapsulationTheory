@@ -1,0 +1,35 @@
+Definition and explanation ->
+
+1)Binding data and code together keeping the data safe from outside environment
+  is called encapsulation.
+2)Encapsulation can be achieved by making members private and access using public 
+  modifier such as getter and setter methods.
+3)No direct access but indirect access using getter and setter methods.
+4)Abstraction = Data hiding + Encapsulation
+5)Java Bean class is the example of fully encapsulation class.
+6)It provides control over the data.
+__________________________________________________________________________________________
+Terms ->
+
+1)Getter - 1)It is a Read-Only method 
+           2)It is used for reading the values 
+           3)It is also called accessor method
+           
+2)Setter - 1)It is a Write-Only method
+           2)It is used for updating the values
+           3)It is also called mutator method
+________________________________________________________________________________________
+Advantages ->
+1)Data hiding 2)Protection 3)Security 4)Increases flexibility
+
+Disadvantages ->
+1)It increases the length of the code and slow shut down the execution
+________________________________________________________________________________________________
+Real-life examples ->
+
+1)Working of an AC all functions are private and we have public modifier 
+  ie remote to change the temperature.
+  
+2)When we login into our gmail account we don't have control over the internal process,
+  we can only provided with public modifier ie email and password.
+
