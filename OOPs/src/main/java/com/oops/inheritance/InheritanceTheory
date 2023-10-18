@@ -1,0 +1,74 @@
+Definition and explanation  ->
+
+1)Inheritance in java means acquiring properties/behaviour of superclass to subclass 
+  using extends keyword.
+2)Subclass can extends all properties/method/behaviour of superclass.
+3)Inheritance is a IS-A relationship.
+_______________________________________________________________________________________
+Use of extends ->
+
+If we want to build work on new project using existing features/properties/behaviours/methods
+_________________________________________________________________________________________
+
+Advantages ->
+
+1)Reduce redundancy
+2)Can use existing behaviour of parent to child class
+3)Code reusability 
+_________________________________________________________________________________________
+Terms ->
+
+1)Superclass - A class from which other class inherit code/behaviour/properties
+2)Subclass - A class which inherit the other class behaviour/properties 
+
+Superclass is also called -> 1)Parent class 2)Base class
+Subclass is also called -> 1)Child class 2)Derived class
+
+_________________________________________________________________________________________
+Types of inheritance relationship ->
+
+1)IS-A relationship :
+   1)Blood relationship
+   2)Uses extends keyword
+   3)Refers to inheritance
+
+2)HAS-A relationship :
+  1)No-Blood relationship
+  2)Uses new keyword
+  3)An instance of one class is referred to instance of another class
+  
+_________________________________________________________________________________________
+Types of inheritance ->
+
+1)Single inheritance - When one class extends only one class is called Single inheritance
+
+eg 
+class A { }
+class B extends A{ }
+
+2)Multilevel inheritance - When a class inherit a dervied class 
+then by making a derived class a base class to a new class is called multilevel inheritance.
+
+eg
+class A{ }
+class B extends A{ }
+class C extends B{ }
+
+3)Hierachical  inheritance - When a class inherited by many classes.
+class A{ }
+class B extends A{ }
+class C extendsA{ }
+
+4)Hybrid inheritance - 1)A hybrid inheritance is a combination of single,multiple and multilevel inheritance. 
+                       2)It is not supported in java
+
+5)Multiple inheritance - 1)In multiple inheritance, where child class may have multiple parents but this type is not
+                           supported in java, 2)Because if parents have same name and signature then it will creates
+                           ambiguity when subclass tries to access that method as it will get confused which method to call
+                           3)Ambiguity problem in java can be resolve by making class interface 
+                           
+___________________________________________________________________________________________________________________________
+
+Examples of inheritance :
+1)A child inherit the properties/features/behaviour from their parent
+2)A smartphone inherits properties of 2G/3G phone like messaging and games but with advance features 
