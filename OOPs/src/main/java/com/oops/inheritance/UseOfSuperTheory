@@ -1,0 +1,18 @@
+The subclass can refer its immediate super class by using super keyword.
+
+3 ways to use super :-
+
+#constructor
+1)To refer superclass constructor in subclass
+2)1st statement in the subclass constructor
+3)Constructors can be referred only from other constructor
+  eg) super(parameters)/super();
+  
+ #method
+ 1)To refer superclass method in subclass
+ 2)1st statement in the subclass constructor
+ eg) super.method_name();
+ 
+ #variable
+ 1)To refer super class instance variable from sub class
+ eg) super.variable_name=variable_name;
