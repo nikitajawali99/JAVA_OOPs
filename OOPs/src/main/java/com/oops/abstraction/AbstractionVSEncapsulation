@@ -1,0 +1,12 @@
+Abstraction                             vs            Encapsulation
+
+1)In abstraction problems are solved        1)In encapsulation problems are solved
+  at design level.                            at implementation part.
+2)Objects can't be created.                 2)Objects can be created.
+3)Abstraction is done by making             3)Encapsulation is done by making variables
+  class and method abstract.                   private and accessing using getter and setter
+4)In abstraction, detail hiding is          4)In encapsulation, data hiding is done.
+  done.
+5)Abstraction is done for reducing          5)Encapsulation is done for data protection and
+  code complexities.                          security.
+6)Outer layout is used for design.          6)Inner layout is used for design.

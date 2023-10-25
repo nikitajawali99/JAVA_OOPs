@@ -1,0 +1,15 @@
+Abstraction                                 vs                Interface
+
+1)May contain concrete methods                    1)Never contain concrete methods
+2)Partially abstract (0-100%)                     2)Fully abstract (100%)
+3)A regular class extends abstract class          3)A regular class implements interface
+4)No multiple inheritance is possible             4)Multiple inheritance is possible
+5)Constructors are allowed                        5)Constructors are not allowed
+6)A regular class can extend only                 6)A regular class can extend more
+ one abstract class                                 than one interface
+7)Methods and variables can of any type expect    7)Methods and variables are by default 
+ private                                            public static final
+ 8)abstract class Animal{                         8)interface class Dog{ 
+ }                                                   }
+ 9)Variables may or may not be                    9)Variables need to be initialized at the
+  initialized at the time of declaration             time at the time of declaration

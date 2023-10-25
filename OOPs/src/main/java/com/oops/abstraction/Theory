@@ -1,0 +1,32 @@
+## Definition and terms ##
+
+1)Hiding the complexities and showing only necessary functionalities. 
+2)Abstraction is achieved by making class and method abstract.
+3)It only shows services that are offered but not implementation part.
+4)It is an non-access modifier and it's hiding is (0-100)%.
+
+## Rules ##
+
+1)If method is abstract then class needs to be abstract but vice versa is not true.
+2)If a regular class extends abstract class then it has to implement the abstract class methods.
+3)An abstract class can be blank.
+4)A regular class can't extend more than one abstract class.
+5)Private and final methods can't be abstract class and methods.
+6)We can have constructors and static methods inside abstract class.
+7)We can't create object directly but we can create using subclass.
+8)Inside abstract class we can have concrete and final methods. 
+
+## Examples ##
+
+1)Working of a mobile phone we need to send SMS from your mobile you only type text
+and send the message, you don't know the internal working/processing about the service.
+2)ATM machine is used for cash withdrawn money transfer, adding money in our daily
+life.But we don't know internally what things are happening inside ATM machine when we
+insert ATM card for performing any kind of operation
+
+## Use of constructors ##
+
+1)We can't create an object of abstract class but we can create using subclass of 
+abstract class. When we create an object of subclass of an abstract class it calls the
+constructor of subclass in the 1st statement and if abstract class doesn't have
+constructor then it will not get compiled
