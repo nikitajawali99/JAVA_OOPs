@@ -1,0 +1,6 @@
+This -> 1)'This' is used to refer current class object
+        2)JVM never put automatically this keyword in call the variable
+
+
+Super -> 1)'Super' is used to refer immediate supper class object
+         2)By default Java automatically put super in parameterized/default constructor

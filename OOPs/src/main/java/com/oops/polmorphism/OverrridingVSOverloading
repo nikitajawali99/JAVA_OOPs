@@ -1,0 +1,15 @@
+Overloading vs Overriding
+
+
+1)It happened within class               1)It happened within sub-class
+2)It is used to achieved                 2)It is used to achieved run-time
+  compile-time polymorphism                polymorphism 
+3)Final and private methods              3)Final and private methods can't be overloaded.
+  can be overloaded
+4)Staic binding is used for overloading  4)Dynamic binding is used for overriding
+5)Performance is better                  5)Performance is low
+6)Method name and parameters             6)Method name and parameters should be same
+  should be different
+7)Access modifier doesn't matter         7)Access modifier matters
+8)It increases readability               8)It increases reusability of the code
+  of the code

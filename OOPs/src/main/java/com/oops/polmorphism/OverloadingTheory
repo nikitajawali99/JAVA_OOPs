@@ -1,0 +1,16 @@
+## Theory ##
+
+1)In a class we have different methods with same method name but different
+  signature is called method overloading.
+2)Either one or more parameters should be different.
+3)If method name is same, parameters are different but return type is different
+ then it will not consider as method overloading.
+4)In method overloading, compiler decides which method to call according to the
+ matching signature
+5)Private,final and main method can be overloaded
+6)It is used when we want to have same method name and doing the same thing but
+  with more parameters.
+  
+## Advantages ##
+1)Code resubility
+2)More readability and understand

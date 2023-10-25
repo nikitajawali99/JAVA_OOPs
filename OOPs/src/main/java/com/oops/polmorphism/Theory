@@ -1,0 +1,30 @@
+## Theory ##
+Polymorphism in java means many forms and one type of action can be performed
+in various ways.
+We can't extends/inherit properties from final and private class
+
+## Types of polymorphism ##
+
+1)Compile-time polymorphism -
+
+1)It is type of polymorphism in which call to an overloaded method is 
+  resolved at compile-time rather than run-time.
+2)It can be achieved using 1)Method hiding 2)Method overloading 3)Constructor overloading
+
+2)Runtime polymorphism - 
+
+1)It is type of polymorphism in which call to an overridden method is defined at run-time
+rather than compile-time
+2)It can be achieved using 1)Method overriding 2)Dynamic method dispatch
+
+## Examples ##
+1)Water at room temperature is liquid and at refrigerator it will be frozen and at boiling
+  temperature it will be gas
+  
+2)A person at office is an employee, at home is a father/husband and at store he will be
+ customer
+ 
+ ## Advantages ##
+ 
+ 1)Code resubility 2)Flexibility 3)Efficient code 
+

@@ -1,0 +1,27 @@
+## Method overriding ##
+
+1)When a method of superclass is overriden in subclass providing more
+specific implementation is called method overriding.
+2)Method overriding supports at run-time polymorphism.
+
+## Rules ##
+
+1)Sub-class method access should be same or more than superclass method access modifier.
+2)It must be a IS-A relationship.
+3)Private and Final methods can't be overridden.
+4)Method name and parameters should be same.
+5)Return type must be same or covariant is also allowed.
+6)Static methods can't be overriden.
+7)Exception rules :
+1)If the superclass method doesn't throw an exception then child class method can only 
+throw unchecked exceptions.
+2)If the superclass method is throwing an exception then child class method can only
+throw same or sub-class but can't throw a parent exceptions.
+3)If the superclass method is not throwing an exception then child class may or may not
+throw an exception.
+
+## Advantages ##
+
+1)Code reusability.
+2)Change of existing behaviour of a method.
+3)To change the functionality.

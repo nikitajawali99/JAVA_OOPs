@@ -1,5 +1,15 @@
 package com.oops.inheritance;
 
+class kk{
+	
+	
+}
+
+final class Nik{
+	
+	
+}
+
 class AA {
 
 	int x = 10;
