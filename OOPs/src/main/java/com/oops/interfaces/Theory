@@ -1,0 +1,53 @@
+1)Interface in java is the collection of abstract classes and final fields.
+2)Every interface is by default abstract.
+3)It is used to achieve loose coupling and dynamic binding during the runtime.
+4)It is a IS-A relationship.
+5)It is used to achieve multiple inheritance in java.
+6)We can't create objects of interface.
+7)We can declare static and default methods in interface.
+8)It is used to achieve fully abstraction.
+9)All variables are public static final and methods are public abstract.
+10)We can't reduce visibility of an interface method while overriding.
+11)Interfaces can't have constructors.
+
+## Relationship between classes and interface ##
+
+1)class A extends class B
+2)class A implements interface B
+3)interface A extends interface B
+
+## class vs interface
+
+1)A class is declared by using a keyword    1)An interface is declared by using a keyword
+  called class                                 called interfaces
+2)A class extends interface                 2)An interface can't extends class
+3)Inside class we can have constructor      3)Inside interfaces we can't have constructor
+4)Inside class we can implement methods     4)Inside interface we can't implements methods
+5)An object can be created                  5)An object can't be created
+
+
+## Most used ##
+1)Iterator - To run through collection of objects that are stored.
+2)Serialization - It is a mechanism of writing java object state into byte stream
+3)Cloneable - To create a copy of existing objects via the clone() method
+4)Comparable - To make a total order of objects
+
+## Types of interface ##
+
+1)Functional interface - An interface which contains only one method signature is called
+                         functional interface.
+                         
+ 2)Nested interface - An interface which is defined inside another interface is called
+                      nested interface.
+                      
+ 3)Extended interface - An interface which is extended by another interface is called
+                        extended interface.
+   
+ 4)Marker interface - 1)An interface which doesn't have method name, body and signature
+                      is called marker interface.
+                      2)This interface has got special privileges over other classes.
+                      eg 1)Cloneable interface : If a class implements cloneable interface
+                           we can create clone(copy) of the object using clone method
+                         2)Serializable interface : If a class implements serializable
+                           interface then we can write the state of object into the file
+                           in terms of byte and transfer it over internet security. 
