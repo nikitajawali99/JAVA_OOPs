@@ -1,0 +1,19 @@
+## Theory ##
+
+A package is a physical folder structure that contains group of classes,
+interfaces or sub-packages.
+
+## Advantages ##
+
+1)Well organized.
+2)Increases readability.
+3)Access control: Visibility control
+4)Reusability : Common code can be used by making common folder can be reuse by everyone
+
+## Types of packages ##
+1)Build-in package : The package that is already defined is called build-in package.
+2)User-defined package : The package that is created by user is called user-defined package.
+
+## Visbility ##
+
+public > protected > default > private
