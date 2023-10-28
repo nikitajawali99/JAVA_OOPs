@@ -45,6 +45,7 @@ Static variables in java belongs to class rather than object of the variable.
  4)When we declare a static method in java the JVM first executes the static methods
  and then it creates the object of the class, Since the instance objects are not available
  at the time of class loading hence non-static methods can't be used inside static methods.
+ 5)We can't override a non-static method as static.
  
  ## Types of blocks ## 
  1)Local block - A block which is created inside constructors and methods.
@@ -65,3 +66,29 @@ Static variables in java belongs to class rather than object of the variable.
   ## Real-life examples ##
   1)In a school, static variables are school name,location,phone no,address
     and non-static variables are student rollNo,div,class teacher,student name
+    
+  ## Method overriding vs Method Hiding
+  
+1)They have same method name and parameters    1)They define a child class as a 
+   and only possible in inheritance               static method with the same signature
+                                                  as a static method, it hides child method
+2)late binding                                  2)early binding
+3)Both methods should be                        3)Both methods should be static
+  non-static
+  
+  
+  ## static vs non-static
+  
+  1)Use of this,super is not allowed       1)User of this,super is allowed
+  2)Memory management is done              2)No memory management is done
+  3)Only overloading is done               3)Both overriding and overloading is done
+  4)Access using class name                4)Access using object name
+  5)Get's memory at the time of            5)Get's memory when we call/ref the method
+  .class before main 
+  6)It is a class method                   6)It is a instance method
+  7)Only one time memory management        7)Multiple time memory management is done
+    is done 
+  8)It will loaded statically when         8)It will loaded dynamically when object 
+  object is created                          is created
+  9)Only static method can be called       9)Both non-static and static method can be
+   inside static method                      called inside non-static method
