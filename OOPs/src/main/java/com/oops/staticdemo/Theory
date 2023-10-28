@@ -1,0 +1,67 @@
+## Definition ##
+
+Static variables in java belongs to class rather than object of the variable.
+
+## Rules ##
+1)Only one copy per class.
+2)Memory management is done.
+3)Belongs to class rather than object of the variable.
+4)It is used to share common properties/behaviour of the variable.
+5)Use of this and super is not allowed.
+6)They stored in the heap memory and get's bound in compile-time.
+7)No need to create object we can directly use using class name.
+8)Get's memory at the time of class loading ie at the time of .dot class even
+  before the main method.
+9)Inside static method we can't use non-static method but vice versa is not true.
+10)We can declare static class provided top class is the normal class and it is called
+  nested classes.
+  
+ ## Static block ##
+ 1)It is a special block and it is used for initialization of static data member.
+ 2)Get's memory at the time of class loading even before the main class.
+ 3)It is used to write logic/manipulation that needs to be done first.
+ 4)We can have multiple staic block but execution will be from top to bottom. 
+ 
+ eg static{
+ }
+ 
+ ## Ways to use static ##
+ 
+ 1)Using static block
+ eg static{
+ }
+ 2)Using static method 
+  eg public static void m1(){
+  }
+ 3)Using static variable
+ eg public static int pie; 
+ 
+ ## Notes ##
+ 1)Static constructor are permit because constructors are used to initialize an objects
+  and if a constructor is static an object of subclass can't be accessed.
+ 2)Static methods can't be overridden because they are not dispatched at runtime time
+ but they are bound at compile-time.
+ 3)Static methods can be overloaded as long as parameters are different.
+ 4)When we declare a static method in java the JVM first executes the static methods
+ and then it creates the object of the class, Since the instance objects are not available
+ at the time of class loading hence non-static methods can't be used inside static methods.
+ 
+ ## Types of blocks ## 
+ 1)Local block - A block which is created inside constructors and methods.
+ 
+ 2)Instance block - 1)A block which is created for initialization, writing common logic 
+ that you want to execute.2)It will execute after static block but before main class.
+ 3)We can have multiple instance block.
+ syntax - > {}
+ 
+ 3)Static block- 1)Used for initialization. 2)Get's executed first in the class before
+ main class.3)We can have multiple instance block.
+  syntax - > static{ 
+  }
+  
+  ## Order of execution ##
+  1)Static block <- Static method <- Instance block <- Constructor <- Non-static method
+  
+  ## Real-life examples ##
+  1)In a school, static variables are school name,location,phone no,address
+    and non-static variables are student rollNo,div,class teacher,student name
