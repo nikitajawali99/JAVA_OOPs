@@ -1,0 +1,23 @@
+1)They are called wrapper class because they wrap the class around the basic type.
+2)It is a mechanism of converting primitive data types into the object of wrapper class.
+3)Auto boxing - The automatic conversion of primitive data type into object of wrapper classes.
+4)Boxing - The conversion of primitive data type into object of wrapper classes.
+5)AutoUnboxing - The automatic conversion of wrapper classes into primitive data types.
+6)Un boxing - The conversion of wrapper class into primitive data types.
+7)Wrapper classes are immutable in nature.
+
+## Advantages ##
+1)Collections only accepts objects
+2)Performance is better
+3)Serialization
+4)Synchronization
+
+## Primitive data types        vs           Wrapper classes
+1)int                                       1)Integer
+2)short                                     2)Short
+3)byte                                      3)Byte
+4)float                                     4)Float
+5)double                                    5)Double
+6)long                                      6)Long
+7)char                                      7)Character
+8)boolean                                   8)Boolean

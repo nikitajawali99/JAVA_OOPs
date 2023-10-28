@@ -1,0 +1,25 @@
+## Theory ##
+
+## Serialization ##
+1)Serialization is a mechanism of converting java object state into byte stream and send 
+data it over the network.
+2)After serialized object has been written into a file, it can be read from the file.
+3)For serializing the object we called the writeObject() method called ObjectOutputStream.
+3)Serialization is a marker interface.
+
+## DeSerialization ##
+1)Deserialization is a mechanism of converting byte stream into java object state.
+2)for deserializing the object we called readObject() method called ObjectInputStream.
+
+
+## Need ##
+1)Used when we need to send data over the network or saved in the life.
+2)To save it/persist state of an object.
+3)It is the translation of your java objects values/states to byte to send it
+over network or save it.
+
+## Conditions ##
+1)The class must implements the java.io.serializable interface
+2)All the fields in the class must be serializable. If a field is not serializable,
+it must be marked transient
+3)If we define any data members as transient it will not be serialized. 
