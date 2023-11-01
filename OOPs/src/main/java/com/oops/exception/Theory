@@ -109,5 +109,27 @@
   4)Checked exceptions are handled by compile-time.             4)Unchecked exceptions are handled by run-time.
   5)Checked exceptions happens when there is a                  5)Unchecked exceptions happens mostly due to programmer's
     high change of failure rate.                                   mistake.
-  eg. FileNotFoundException,CloneNotSupportException              eg. NullPointerException,ClassCastException
+  eg. FileNotFoundException,CloneNotSupportException            eg. NullPointerException,ClassCastException
+    
+   ## user-defined exception/custom exception
+   1)Those exceptions which are declared/created by a programmer to meet their 
+     specific requirement of the application.
+     eg.1)Voting age in India:If a person's age is less than 18 then program throw invalid
+          age exception
+          
+    ## chained exceptions
+    1)It gives information about another exception.
+    2)One exception describe the cause of another exception.
+    3)It gives more specific reason why exception occurs/core reason
+    4)It helps to find root cause of the application why exception occurred.
+    eg When AE is there, it will give the actual exception reason.
+    
+    ## Throwable
+    1)A throwable in java is an event that disrupts the normal flow of the program.
+    
+    ## Notes
+    1)If we declare unchecked exception then it is not mandatory to declare at method level.
+    2)If we declare checked exception then it is mandatory to declare at method level.
+    
+    
     
