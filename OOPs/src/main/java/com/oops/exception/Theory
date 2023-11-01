@@ -1,0 +1,113 @@
+1)Exception Handling is a technique of handling exceptions that occurred
+  at runtime so that it should not stop normal execution of the program.
+2)All exceptions are occurred at runtime only.
+3)When there is not exception handler then JVM provides default exception
+ handler that ie printStackTrace.
+4)Exception is an abnormal condition that occurred in the program so that it
+ will stop normal execution of the program immediately.
+5)When there is a number divide by zero and exception occurred and there is no
+ exception handler than JVM creates exception object and throw it inform that
+ exception has occurred.
+ 
+ ## Examples 
+ 
+ 1)Suppose we are travelling from Mumbai to Pune in a car then tyre of the car
+ is punctuated then it is a exception we change car tyre then it is a exception
+ handler.
+ 2)Suppose you are watching a video on youtube and suddenly wifi is not working
+  then it is a exception then using mobile data is a exception handler.
+  
+  ## Exception constructor
+  
+  1)Exception()
+  2)Exception(String msg)
+  3)Exception(String msg,Exception ex)
+  
+  ## try-with-multiple-catch
+  
+  1)It is used to perform different tasks at the occurrence of different tasks.
+  2)To handle more specific exception.
+  3)It is used when we don't know exception.
+  4)It will failed when we want to give customize message whenever exception
+   occur in direct try-catch.
+   
+ ## Exception message types 
+ 
+ 1)printStackTrace() : Prints the results to toString() and print 1)exception name 2)Description 3)Stack trace
+ 2)getMessage() : Returns a detailed message about the exception that happened
+ 3)toString() : Returns the name of exception name and String name
+ 4)getClause(): Returns the cause of this throwable or null if the cause is nonexistent or unknown
+
+ 
+ ##1)Can't write any statement after try-catch block and if any exception occurs then it will directly go to catch block 
+   without executing any further statements.
+   
+ ## Types of exceptions
+ 
+ 1)Predefined exceptions - Exceptions that are already defined in the system or build-in.
+ 2)Custom exceptions - Exceptions that are created by the user/programmer according to the requirement.
+ 
+ ## Throwable interface - It is derived from object class, is a top of exception classes and it is present in java.lang
+   package and superclass of all exceptions and error which may occur in java
+   
+ ## Throwable - >
+ 
+ 1)Error - 1)It generally represents as unusual problem/situation from which it is difficult to recover. 
+             eg StackOverFlowError,OutOfMemoryError
+ 2)Exception - 1)RE 2)CE
+ 
+ ## Runtime Exception
+ 1)It is a subclass of exception and it is thrown by programmer/JVM during the runtime only.
+ 2)It is also called unchecked exception.
+ 
+ eg 1)Arithmetic Exception - This exception is thrown when an arithmetic problems occurred such as number is divide by zero.
+    2)Null Pointer Exception - This exception occurred when we attempted to use/ref null instead of an object.
+    3)Class cast Exception - This exception occurred when we attempting to do invalid typecasting in the program.
+    4)ArrayOutOfBoundException - This exception is occurred when an array element is accessing out of the index.
+    5)InputMisMatchException - This exception occurred when we are using string input and accepted other input type.
+    
+ ## Compile-time Exception 
+ 1)It is a subclass of exception and it is thrown during the compile-time and it needs to handled properly by the programmers.
+ 
+ eg 1)ClassNotFoundException
+    2)FileNotFoundException
+    3)IOException
+    4)CloneNotFoundException
+    5)InterruptedException
+    
+ ## How to handle the exception
+ 
+ 1)try block - In try, we suppose to write a code in which exception may occur.
+ 
+ 2)catch block - After exception occurs, we want to execute some statement/line after the exception, then we use catch block.
+ 
+ 3)throw block - We want to throw an exception manually or explicitly and we can use throw checked/unchecked exceptions.
+ 
+ 4)throws block - When a method may throw an exception in program but cannot handle it due to not have an appropriate
+                  exception handling mechanism 
+                  
+ 5)finally - 1)It is a block which is used for closing a file,cleanup code and closing connection
+             2)It will not execute 1)when exception occurs at finally 2)In the catch block System.exit() is printed
+             
+  ## throw vs throws
+  
+  1)Throw keyword is used to explicitly throw an exception           1)Throws is used to declare an exception
+  2)We can throw only single exception                               2)We can throws many exception
+  3)Throw is followed by new instance                                3)Throws is followed by method name
+  4)Can'r write any statement after throw                            4)No such rules
+  5)It is declared within body                                       5)It is written within method body
+  6)syntax - throw new Exception-name                                6)syntax - throws Exception class
+  
+  ## checked vs unchecked
+  
+  1)The classes that directly inherit                           1)The classes that directly inherit RI are called
+    Throwable class except RE and Error                          unchecked exceptions.
+    are called checked exceptions.
+  2)JVM can't handle need  to throw                             2)JVM can handle no need to throw explicitly.                    
+    explicitly.               
+  3)Checked exception extends Exception.                        3)Unchecked exception extends Runtime exception.
+  4)Checked exceptions are handled by compile-time.             4)Unchecked exceptions are handled by run-time.
+  5)Checked exceptions happens when there is a                  5)Unchecked exceptions happens mostly due to programmer's
+    high change of failure rate.                                   mistake.
+  eg. FileNotFoundException,CloneNotSupportException              eg. NullPointerException,ClassCastException
+    
